@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: npm install -g @railway/cli
-      - run: railway up --service=exam
+      - run: railway up --service=exam-service
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
       - run: echo "Done railway deploys"
