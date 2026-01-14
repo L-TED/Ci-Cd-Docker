@@ -6,9 +6,9 @@ export class AppService {
     return 'Hello World!';
   }
   getDocker(): string {
-    return 'Hello Docker!';
+    return 'Hello Docker!!';
   }
   getCicd(): string {
-    return 'Hello CI/CD!';
+    return 'Hello CI/CD!!!';
   }
 }
